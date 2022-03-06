@@ -126,6 +126,7 @@ body {
 .projects {
     display: none;
     position: absolute;
+    z-index: 999;
     top: 0;
     left: 0;
     width: 100%;
@@ -192,7 +193,7 @@ body {
         height: 20px;
     }
 
-    .projects{
+    .projects{        
         padding-top: 25px;
         font-size: 16px;
     }
